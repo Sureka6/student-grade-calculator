@@ -1,0 +1,26 @@
+def calculate_grade(marks):
+    if marks >= 90:
+        return "A"
+    elif marks >= 80:
+        return "B"
+    elif marks >= 70:
+        return "C"
+    elif marks >= 60:
+        return "D"
+    else:
+        return "F"
+
+# Input
+marks = float(input("Enter marks: "))
+
+# Output
+grade = calculate_grade(marks)
+print(f"Your grade is: {grade}")
+
+
+Sample Output:
+
+yaml
+Copy code
+Enter marks: 85
+Your grade is: B
